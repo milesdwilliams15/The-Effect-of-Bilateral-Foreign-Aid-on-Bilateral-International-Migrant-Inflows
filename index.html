@@ -63,9 +63,9 @@ dyad_c_vcov1 &lt;- dfa1 * vcovHC(ols1, type = "HC0", cluster = "group", adjust =
 ols1CSE&lt;-coeftest(ols1, vcov = dyad_c_vcov1)
 </code></pre>
 
-<p>This new object ("ols1CSE") will now serve as one of the models from which I extract the terms required by dwplot(). A second model was estimated using Tobit, which can be done with vglm() command in the VGAM package.</p>
+<p>This new object ("ols1CSE") will now serve as one of the models from which I extract the terms required by dwplot(). A second model was estimated using Tobit, which can be done with the vglm() command in the VGAM package.</p>
 
-<p>After created these model objects, I utilized the following code to create the plot shown below:</p>
+<p>After I created these model objects, I utilized the following code to create the plot shown below:</p>
 
 <pre><code>term&lt;-c("Aid Commitments","Migration Policy Restrictiveness",
     "Severity of Civil Conflict","Distance","Colonial Past",
