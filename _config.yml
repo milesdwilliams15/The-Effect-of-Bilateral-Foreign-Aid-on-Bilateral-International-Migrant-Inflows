@@ -1,0 +1,8 @@
+title: How to Model the Gravitational Pull of Bilateral Foreign Aid on Bilateral Immigration
+description: Some Data Analysis from My Master's Thesis
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
